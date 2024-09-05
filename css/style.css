@@ -5,3 +5,8 @@ body {
 header {
     background-color: #bbbbbb;
 }
+
+footer {
+    border: 1px solid #aaaaaa;
+    height: 50px;
+}
