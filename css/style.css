@@ -28,6 +28,23 @@ a:hover {
     background-color: #a1a1a1;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 60vh;
+    padding: 10px;
+}
+
+aside {
+    background-color: #a0a0a0;
+    padding: 7%;
+}
+
+main {
+    padding: 2% 5%;
+    grid-column: 2 / 5;
+}
+
 footer {
     border: 1px solid #aaaaaa;
     height: 50px;
