@@ -6,6 +6,28 @@ header {
     background-color: #bbbbbb;
 }
 
+.nav-bar {
+    display:flex;
+}
+
+.nav-item {
+    margin: auto;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    font-style: italic;
+    color: darkslategrey;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+a:hover {
+    background-color: #a1a1a1;
+}
+
 footer {
     border: 1px solid #aaaaaa;
     height: 50px;
